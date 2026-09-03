@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dilemas Digitais - problemas e soluções para uma vida digital mais segura e consciente.">
+    <title>Dilemas Digitais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Dilemas<span>Digitais</span></div>
+
+        <div class="nav-links">
+            <a href="#inicio">Início</a>
+            <a href="#dilemas">Dilemas</a>
+            <a href="#solucoes">Soluções</a>
+            <a href="#quiz">Quiz</a>
+        </div>
+
+        <button id="themeButton" class="theme-button">🌙</button>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <span class="tag">TECNOLOGIA + CONSCIÊNCIA</span>
+
+            <h1>
+                Você sabe lidar com os
+                <span>dilemas digitais?</span>
+            </h1>
+
+            <p>
+                A tecnologia faz parte da nossa vida. Descubra os principais
+                desafios do mundo digital e encontre soluções para usar a
+                internet de maneira mais segura, ética e consciente.
+            </p>
+
+            <a href="#dilemas" class="main-button">
+                Explorar dilemas →
+            </a>
+        </div>
+
+        <div class="hero-card">
+            <div class="hero-icon">💻</div>
+            <h3>Vida digital consciente</h3>
+            <p>
+                Informação é o primeiro passo para tomar decisões melhores
+                no mundo conectado.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- ESTATÍSTICAS -->
+    <section class="stats">
+        <div>
+            <strong>06</strong>
+            <span>Dilemas</span>
+        </div>
+
+        <div>
+            <strong>06</strong>
+            <span>Soluções</span>
+        </div>
+
+        <div>
+            <strong>10</strong>
+            <span>Perguntas</span>
+        </div>
+
+        <div>
+            <strong>100%</strong>
+            <span>Gratuito</span>
+        </div>
+    </section>
+
+
+    <!-- DILEMAS -->
+    <section id="dilemas" class="section">
+        <div class="section-title">
+            <span class="tag">PRINCIPAIS DESAFIOS</span>
+            <h2>Dilemas Digitais</h2>
+            <p>
+                Conheça situações que fazem parte da nossa vida na internet.
+            </p>
+        </div>
+
+        <div class="filters">
+            <button class="filter active" data-filter="todos">Todos</button>
+            <button class="filter" data-filter="seguranca">Segurança</button>
+            <button class="filter" data-filter="social">Social</button>
+            <button class="filter" data-filter="tecnologia">Tecnologia</button>
+        </div>
+
+        <div class="cards">
+
+            <article class="card" data-category="seguranca">
+                <div class="card-icon">🔐</div>
+                <span class="category">SEGURANÇA</span>
+                <h3>Privacidade Digital</h3>
+                <p>
+                    Quanto das nossas informações pessoais devemos
+                    compartilhar na internet?
+                </p>
+
+                <button class="solution-button"
+                    data-title="Privacidade Digital"
+                    data-solution="Use senhas fortes e diferentes, ative a autenticação em dois fatores, revise as permissões dos aplicativos e evite publicar informações pessoais desnecessárias.">
+                    Ver solução
+                </button>
+            </article>
+
+
+            <article class="card" data-category="social">
+                <div class="card-icon">📰</div>
+                <span class="category">SOCIAL</span>
+                <h3>Fake News</h3>
+                <p>
+                    Como saber se uma informação encontrada nas redes sociais
+                    é verdadeira?
+                </p>
+
+                <button class="solution-button"
+                    data-title="Fake News"
+                    data-solution="Antes de compartilhar, procure a mesma informação em fontes confiáveis, confira a data da publicação, leia além do título e desconfie de conteúdos que tentam provocar uma reação emocional imediata.">
+                    Ver solução
+                </button>
+            </article>
+
+
+            <article class="card" data-category="social">
+                <div class="card-icon">💬</div>
+                <span class="category">SOCIAL</span>
+                <h3>Cyberbullying</h3>
+                <p>
+                    O que fazer quando alguém sofre ataques, ameaças ou
+                    humilhações pela internet?
+                </p>
+
+                <button class="solution-button"
+                    data-title="Cyberbullying"
+                    data-solution="Não responda às agressões. Salve evidências, bloqueie o agressor, utilize as ferramentas de denúncia da plataforma e procure ajuda de responsáveis, professores ou outras pessoas de confiança.">
+                    Ver solução
+                </button>
+            </article>
+
+
+            <article class="card" data-category="tecnologia">
+                <div class="card-icon">📱</div>
+                <span class="category">TECNOLOGIA</span>
+                <h3>Uso Excessivo</h3>
+                <p>
+                    Quando o uso do celular e das redes sociais começa a
+                    atrapalhar a vida cotidiana?
+                </p>
+
+                <button class="solution-button"
+                    data-title="Uso Excessivo"
+                    data-solution="Defina horários para usar o celular, desative notificações desnecessárias, faça pausas durante o dia e reserve momentos sem telas para estudar, dormir, praticar atividades físicas e conviver com outras pessoas.">
+                    Ver solução
+                </button>
+            </article>
+
+
+            <article class="card" data-category="tecnologia">
+                <div class="card-icon">🤖</div>
+                <span class="category">TECNOLOGIA</span>
+                <h3>Inteligência Artificial</h3>
+                <p>
+                    Como utilizar ferramentas de IA sem abrir mão do
+                    pensamento crítico e da responsabilidade?
+                </p>
+
+                <button class="solution-button"
+                    data-title="Inteligência Artificial"
+                    data-solution="Use a IA como ferramenta de apoio, não como substituta do pensamento. Confira informações importantes, evite inserir dados pessoais ou confidenciais e deixe claro quando um conteúdo foi produzido com auxílio de IA, quando isso for relevante.">
+                    Ver solução
+                </button>
+            </article>
+
+
+            <article class="card" data-category="social">
+                <div class="card-icon">🎮</div>
+                <span class="category">SOCIAL</span>
+                <h3>Jogos e Equilíbrio</h3>
+                <p>
+                    Como aproveitar os jogos digitais sem deixar que eles
+                    prejudiquem outras áreas da vida?
+                </p>
+
+                <button class="solution-button"
+                    data-title="Jogos e Equilíbrio"
+                    data-solution="Estabeleça limites de tempo, faça pausas frequentes e mantenha um equilíbrio entre jogos, estudos, trabalho, sono, exercícios e relações sociais.">
+                    Ver solução
+                </button>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- SOLUÇÕES -->
+    <section id="solucoes" class="solutions-section">
+
+        <div class="section-title">
+            <span class="tag">COMO AGIR</span>
+            <h2>6 atitudes para uma vida digital melhor</h2>
+        </div>
+
+        <div class="solution-grid">
+
+            <div class="solution-item">
+                <span>01</span>
+                <div>
+                    <h3>Proteja seus dados</h3>
+                    <p>
+                        Utilize senhas fortes e mantenha suas contas protegidas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="solution-item">
+                <span>02</span>
+                <div>
+                    <h3>Questione informações</h3>
+                    <p>
+                        Verifique fontes antes de acreditar ou compartilhar.
+                    </p>
+                </div>
+            </div>
+
+            <div class="solution-item">
+                <span>03</span>
+                <div>
+                    <h3>Respeite os outros</h3>
+                    <p>
+                        O respeito também deve existir no ambiente virtual.
+                    </p>
+                </div>
+            </div>
+
+            <div class="solution-item">
+                <span>04</span>
+                <div>
+                    <h3>Controle seu tempo</h3>
+                    <p>
+                        Tecnologia deve fazer parte da vida, não controlar sua vida.
+                    </p>
+                </div>
+            </div>
+
+            <div class="solution-item">
+                <span>05</span>
+                <div>
+                    <h3>Use IA com responsabilidade</h3>
+                    <p>
+                        Analise e confira os resultados antes de utilizá-los.
+                    </p>
+                </div>
+            </div>
+
+            <div class="solution-item">
+                <span>06</span>
+                <div>
+                    <h3>Peça ajuda</h3>
+                    <p>
+                        Procure alguém de confiança diante de situações perigosas.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- QUIZ -->
+    <section id="quiz" class="quiz-section">
+
+        <div class="section-title">
+            <span class="tag">TESTE SEUS CONHECIMENTOS</span>
+            <h2>Quiz dos Dilemas Digitais</h2>
+            <p>
+                Responda às perguntas e descubra quanto você sabe sobre
+                segurança e cidadania digital.
+            </p>
+        </div>
+
+        <div id="quizContainer" class="quiz-container">
+
+            <div class="quiz-progress">
+                <div id="progressBar"></div>
+            </div>
+
+            <span id="questionNumber"></span>
+
+            <h3 id="question"></h3>
+
+            <div id="answers" class="answers"></div>
+
+            <button id="nextButton" class="main-button">
+                Próxima pergunta →
+            </button>
+
+        </div>
+
+        <div id="result" class="result hidden">
+            <div class="result-icon">🏆</div>
+
+            <h2>Quiz finalizado!</h2>
+
+            <p id="score"></p>
+
+            <button id="restartButton" class="main-button">
+                Refazer quiz
+            </button>
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- MODAL -->
+<div id="solutionModal" class="modal hidden">
+
+    <div class="modal-content">
+
+        <button id="closeModal" class="close-button">×</button>
+
+        <div class="modal-icon">💡</div>
+
+        <span class="tag">SOLUÇÃO</span>
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalSolution"></p>
+
+        <button id="modalCloseButton" class="main-button">
+            Entendi!
+        </button>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <div class="logo">Dilemas<span>Digitais</span></div>
+
+            <p>
+                Educação digital para escolhas mais conscientes.
+            </p>
+        </div>
+
+        <div>
+            <h4>Projeto</h4>
+            <a href="#dilemas">Dilemas</a>
+            <a href="#solucoes">Soluções</a>
+            <a href="#quiz">Quiz</a>
+        </div>
+
+        <div>
+            <h4>Objetivo</h4>
+            <p>
+                Promover o uso seguro, ético e consciente da tecnologia.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 Dilemas Digitais — Projeto educacional
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
